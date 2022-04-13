@@ -1,0 +1,786 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#"
+     xml:base="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrlb="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:Ontology1549729681547="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#"
+     xmlns:Ontology15497296815471="http://www.semanticweb.org/laia.subirats/ontologies/2022/2/Ontology1549729681547.owl#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl">
+        <rdfs:comment>Information about an episode of a TV series. 
+(The Simpsons Episode 1 Season 1).
+author: Rubén Mas Martín</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#sameAs -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#sameAs"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#hasPrimary -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#hasPrimary">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Story"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Primary"/>
+        <rdfs:comment>has Primary</rdfs:comment>
+        <rdfs:label>has_Primary</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#hasQualifier -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#hasQualifier">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Story"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Qualifiers"/>
+        <rdfs:comment>has Qualifier</rdfs:comment>
+        <rdfs:label>has_Qualifier</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#hasSecondary -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#hasSecondary">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Story"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Secondary"/>
+        <rdfs:comment>has Secondary</rdfs:comment>
+        <rdfs:label>has_Secondary</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#hasTime -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#hasTime">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Story"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Date"/>
+        <rdfs:comment>has Date</rdfs:comment>
+        <rdfs:label>has_Date</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#hasVehicleColour -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#hasVehicleColour">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Story"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#VehicleColour"/>
+        <rdfs:comment>has Vehicle_Colour</rdfs:comment>
+        <rdfs:label>has_Vehicle_Colour</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#hasVehicleSize -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#hasVehicleSize">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Story"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#VehicleSize"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#VehicleSize"/>
+        <rdfs:comment>has Vehicle_Size</rdfs:comment>
+        <rdfs:label>has_Vehicle_Size</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#has_Place -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#has_Place">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Story"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Place"/>
+        <rdfs:comment>has Place</rdfs:comment>
+        <rdfs:label>has_Place</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#hasCharacterWeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#hasCharacterWeight">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#CharacterWeight"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment>has Character Weight</rdfs:comment>
+        <rdfs:label>has_Character_Weight</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laia.subirats/ontologies/2022/2/Ontology1549729681547.owl#hasCharacterHeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laia.subirats/ontologies/2022/2/Ontology1549729681547.owl#hasCharacterHeight">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#CharacterHeight"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment>has Character Height</rdfs:comment>
+        <rdfs:label>has_Character_Height</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#CardinalPoints -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#CardinalPoints">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Location"/>
+        <rdfs:comment>Class Cardinal_Point</rdfs:comment>
+        <rdfs:label>Cardinal_Point</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Character -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Character">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#EpisodeCharacteristic"/>
+        <rdfs:comment>Class Character</rdfs:comment>
+        <rdfs:label>Character</rdfs:label>
+        <rdfs:sameAs>https://dbpedia.org/page/Character</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#CharacterAge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#CharacterAge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#CharactersCharacteristics"/>
+        <rdfs:comment>Class Character_Age</rdfs:comment>
+        <rdfs:label>Character_Age</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#CharacterHeight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#CharacterHeight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#CharactersCharacteristics"/>
+        <rdfs:comment>Class Character_Height</rdfs:comment>
+        <rdfs:label>Character_Height</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#CharacterWeight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#CharacterWeight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#CharactersCharacteristics"/>
+        <rdfs:comment>Class Character_Weight</rdfs:comment>
+        <rdfs:label>Character_Weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#CharactersCharacteristics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#CharactersCharacteristics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#EpisodeCharacteristic"/>
+        <rdfs:comment>Class Character_Characteristic</rdfs:comment>
+        <rdfs:label>Character_Characteristic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Date -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Date">
+        <rdfs:comment>Class Date</rdfs:comment>
+        <rdfs:label>Date</rdfs:label>
+        <rdfs:sameAs>https://dbpedia.org/page/Date</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Day -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Day">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Date"/>
+        <rdfs:comment>Class Day</rdfs:comment>
+        <rdfs:label>Day</rdfs:label>
+        <rdfs:sameAs>http://dbpedia.org/page/Day</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#EpisodeCharacteristic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#EpisodeCharacteristic">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#has_Place"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Class Episode_Characteristic</rdfs:comment>
+        <rdfs:label>Episode_Characteristic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Healthy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Healthy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Qualifiers"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Unhealthy"/>
+        <rdfs:comment>Class Healthy</rdfs:comment>
+        <rdfs:label>Healthy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Hour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Hour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Date"/>
+        <rdfs:comment>Class Hour</rdfs:comment>
+        <rdfs:label>Hour</rdfs:label>
+        <rdfs:sameAs>http://dbpedia.org/page/Hour</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Latitude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Latitude">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Location"/>
+        <rdfs:comment>Class Latitude</rdfs:comment>
+        <rdfs:label>Latitude</rdfs:label>
+        <rdfs:sameAs>http://dbpedia.org/page/Latitude</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Location">
+        <rdfs:comment>Class Location</rdfs:comment>
+        <rdfs:label>Location</rdfs:label>
+        <rdfs:sameAs>http://dbpedia.org/page/Location_(geography)</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Longitude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Longitude">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Location"/>
+        <rdfs:comment>Class Longitude</rdfs:comment>
+        <rdfs:label>Longitude</rdfs:label>
+        <rdfs:sameAs>http://dbpedia.org/page/Longitude</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Month -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Month">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Date"/>
+        <rdfs:comment>Class Month</rdfs:comment>
+        <rdfs:label>Month</rdfs:label>
+        <rdfs:sameAs>http://dbpedia.org/page/Month</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Overweight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Overweight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Qualifiers"/>
+        <rdfs:comment>Class Overweight</rdfs:comment>
+        <rdfs:label>Overweight</rdfs:label>
+        <rdfs:sameAs>https://dbpedia.org/page/Overweight</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Place -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Place">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Location"/>
+        <rdfs:comment>Class Place</rdfs:comment>
+        <rdfs:label>Place</rdfs:label>
+        <rdfs:sameAs>https://dbpedia.org/page/Place</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Primary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Primary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Character"/>
+        <rdfs:comment>Class Primary</rdfs:comment>
+        <rdfs:label>Primary</rdfs:label>
+        <rdfs:sameAs>https://dbpedia.org/page/Primary</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Qualifiers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Qualifiers">
+        <rdfs:comment>Class Qualifiers</rdfs:comment>
+        <rdfs:label>Qualifiers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Secondary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Secondary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Character"/>
+        <rdfs:comment>Class Secondary</rdfs:comment>
+        <rdfs:label>Secondary</rdfs:label>
+        <rdfs:sameAs>https://dbpedia.org/page/Secondary</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Story -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Story">
+        <rdfs:comment>Class Story</rdfs:comment>
+        <rdfs:label>Story</rdfs:label>
+        <rdfs:sameAs>https://dbpedia.org/page/Story</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Tall -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Tall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Qualifiers"/>
+        <rdfs:comment>Class Tall</rdfs:comment>
+        <rdfs:label>Tall</rdfs:label>
+        <rdfs:sameAs>https://dbpedia.org/page/Tall</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Unhealthy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Unhealthy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Qualifiers"/>
+        <rdfs:comment>Unhealthy</rdfs:comment>
+        <rdfs:label>Unhealthy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#VehicleColour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#VehicleColour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#VehicleProperties"/>
+        <rdfs:comment>Class Vehicle_Colour</rdfs:comment>
+        <rdfs:label>Vehicle_Colour</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#VehicleProperties -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#VehicleProperties">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#hasQualifier"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Class Vehicle_Properties</rdfs:comment>
+        <rdfs:label>Vehicle_Properties</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#VehicleSize -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#VehicleSize">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#VehicleProperties"/>
+        <rdfs:comment>Class Vehicle_Size</rdfs:comment>
+        <rdfs:label>Vehicle_Size</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Year -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Year">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Date"/>
+        <rdfs:comment>Class Year</rdfs:comment>
+        <rdfs:label>Year</rdfs:label>
+        <rdfs:sameAs>http://dbpedia.org/page/Year</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#Decembre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#Decembre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#Episode1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#Episode1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Story"/>
+        <Ontology1549729681547:hasPrimary rdf:resource="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#Simpsons_Family"/>
+        <Ontology1549729681547:hasTime rdf:resource="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#Decembre"/>
+        <Ontology1549729681547:hasTime rdf:resource="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#10"/>
+        <Ontology1549729681547:hasTime rdf:resource="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#17"/>
+        <Ontology1549729681547:hasTime rdf:resource="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#1989"/>
+        <Ontology1549729681547:hasVehicleColour rdf:resource="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#Pink"/>
+        <Ontology1549729681547:hasVehicleSize rdf:resource="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#FamilyCar"/>
+        <Ontology1549729681547:has_Place rdf:resource="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#Simpsons_House"/>
+        <Ontology1549729681547:hasCharacterWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</Ontology1549729681547:hasCharacterWeight>
+        <Ontology15497296815471:hasCharacterHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">185</Ontology15497296815471:hasCharacterHeight>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#FamilyCar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#FamilyCar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#VehicleSize"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#Pink -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#Pink">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#VehicleColour"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#Simpsons_Family -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#Simpsons_Family">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Primary"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#Simpsons_House -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#Simpsons_House">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Hour"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Day"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#1989 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#1989">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Year"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="urn:swrl:var#o">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#w">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#hasCharacterWeight"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#o"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#w"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
+                                <swrl:arguments>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:resource="urn:swrl:var#w"/>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </swrl:arguments>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Story"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#o"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Healthy"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#o"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Story"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#o"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/laia.subirats/ontologies/2022/2/Ontology1549729681547.owl#hasCharacterHeight"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#o"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#w"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="urn:swrl:var#w"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Tall"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#o"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/laia.subirats/ontologies/2019/1/Ontology1549729681547.owl#hasCharacterWeight"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#o"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#w"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                                <swrl:arguments>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:resource="urn:swrl:var#w"/>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </swrl:arguments>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Story"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#o"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/rmm/ontologies/2022/2/TheSimpsonsTVserie.owl#Overweight"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#o"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
